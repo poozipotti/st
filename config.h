@@ -234,9 +234,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_Home,        zoomreset,      {.f =  0} },
 	{ ShiftMask,            XK_Insert,      clippaste,      {.i =  0} },
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
-	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ MODKEY,               XK_p,           selpaste,       {.i =  0} },
-	{ XK_ANY_MOD,		Button2,	selpaste,	{.i =  0} },
+	{ XK_ANY_MOD,		        Button2,	      selpaste,	      {.i =  0} },
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
 	{ MODKEY,               XK_Control_L,   iso14755,       {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
@@ -258,6 +257,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_l,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutput } },
+	{ ControlMask,          XK_v,           clippaste,      {.i =  0} },
 };
 
 /*
